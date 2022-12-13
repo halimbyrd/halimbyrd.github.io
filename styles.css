@@ -31,6 +31,7 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 30px;
+    border-bottom: solid 3px #4C6793;
 
 }
 
@@ -112,7 +113,8 @@ nav ul li {
 
 
 .projects {
-    height: 110vh;
+    height: 150vh;
+    
 }
 
 .project-head {
@@ -137,7 +139,7 @@ nav ul li {
 }
 
 
-.project-row-1 {
+.project-row {
     display: flex;
     justify-content: center;
 }
@@ -154,6 +156,7 @@ nav ul li {
     height: 180px;
     width: 440px;
     box-shadow:  1px 5px 9px rgba(132, 136, 132, 0.75);
+    margin-bottom: 40px;
 
 
 }
@@ -196,64 +199,52 @@ nav ul li {
 }
 
 
-.box-1 {
-    position: relative;
-    right: 260px;
+
+.contact {
+    
+    height: 55vh;
+    background-color:#264653;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+.contact-head {
+    font-size: 40px;
 }
 
 
-.box-2 {
-    position: relative;
-    right: 230px;
-}
-
-
-/*
-
-
-.bottom-color {
+.contact-head, .contact-info, .contact-email {
     display: flex;
-    justify-content: space-evenly;
-
-}
-.img-bottom-color div {
-     
-    background-color: white ;
-    height: 160px;
-    width: 440px;
-    position: relative;
-    box-shadow:  1px 5px 9px rgba(132, 136, 132, 0.75);
-
-
-}
-
-.bottom-1 {
-    position: relative;
-    left: 10px;
-}
-
-.bottom-2 {
-    position: relative;
-    right: 11px;
-}
-
-
-.bottom-3 {
-    position: relative;
-    right: 34px;
+    justify-content: center;
+    margin-bottom: 30px;
+    
 }
 
 
 
-.title {
+.contact-info, .contact-email {
+    font-size: 30px;
+}
+
+
+.more-info {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 30px;
+    left: 20px;
 }
 
-.project-info {
-    display: flex;
-    justify-content: center;
+.more-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 2rem;
 }
+
+
+
+
 

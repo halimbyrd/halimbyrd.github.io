@@ -114,7 +114,7 @@ nav ul li {
 
 .projects {
     height: 150vh;
-    
+    margin-bottom: 140px;
 }
 
 .project-head {
@@ -149,6 +149,7 @@ nav ul li {
 .box-container {
     display: flex;
     justify-content: center;
+    
 }
 
 .boxes {
@@ -199,12 +200,35 @@ nav ul li {
 }
 
 
+/*
+.more-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 2rem;
+}
+
+
 
 .contact {
-    
+    margin-top: 30px;
+    height: 35vh;
+    background-color:#264653;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+*/
+
+
+
+
+
+.contact {
     height: 55vh;
     background-color:#264653;
-    padding: 10px;
     color: white;
     font-weight: bold;
 

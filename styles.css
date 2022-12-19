@@ -133,7 +133,7 @@ nav ul li {
 
 .projects img {
     height: 250px;
-    width: 440px;
+    width: 340px;
     margin-right: 23px;
    
 }
@@ -155,7 +155,7 @@ nav ul li {
 .boxes {
     background-color: white ;
     height: 180px;
-    width: 440px;
+    width: 340px;
     box-shadow:  1px 5px 9px rgba(132, 136, 132, 0.75);
     margin-bottom: 40px;
 
@@ -200,31 +200,29 @@ nav ul li {
 }
 
 
-/*
-.more-info img {
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    margin-right: 2rem;
+
+.box-1 {
+    position: relative;
+    right: 35px;
+}
+.box-2 {
+    position: relative;
+    right: 12px;
+}
+.box-3 {
+    position: relative;
+    left: 12px;
+}
+.box-4 {
+    position: relative ;
+    right: 35px;
 }
 
 
 
-.contact {
-    margin-top: 30px;
-    height: 35vh;
-    background-color:#264653;
-    color: white;
-    font-weight: bold;
 
 
-}
-
-*/
-
-
-
-
+/* Contact */
 
 .contact {
     height: 55vh;

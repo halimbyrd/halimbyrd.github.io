@@ -215,10 +215,19 @@ nav ul li {
 }
 .box-4 {
     position: relative ;
-    right: 35px;
+    right: 203px;
+}
+
+.box-5 {
+    position: relative;
+    right: 180px;
 }
 
 
+.row-2 img {
+     position: relative;
+     right: 180px;
+}
 
 
 

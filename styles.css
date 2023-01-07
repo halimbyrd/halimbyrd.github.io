@@ -6,56 +6,28 @@
 }
 
 body {
-    overflow-x: hidden;
+    background-color: rgb(31, 26, 22)
 }
 
+/*      background-color: rgb(37, 29, 23)
+ */
 
-
-
-nav {
-    background-color: #163F5E ;
-    padding: 20px;
-    margin-bottom: 80px;
-}
-
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-nav ul li a {
-    margin: 230px;
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-    border-bottom: solid 3px #4C6793;
-
-}
-
-
-nav ul li {
-    list-style-type: none;
-}
-
-
-
-
+ 
 .about-section {
-
     display: flex;
     justify-content: center;
+    margin-top: 110px;
+
 }
 
 .name {
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     color: #163F5E ;
     font-weight: bold;
     font-size: 50px;
-    margin-bottom: 30px;
+    color: white;
 }
 
 
@@ -65,51 +37,190 @@ nav ul li {
     width: 560px;
     text-align: center;
     color: #3C4A69;
-    font-weight: bld;
     font-size: 20px;
     margin-bottom: 90px;
+    color: #D7D3D0;
+
 }
 
-
-
-.skills {
-    height: 60vh;
-}
 
 
 .skills-head {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
-}
-
-.skills h2 {
-    color: #264653;
-    font-size: 40px;
-    
-}
-
-.skills img {
-    height: 120px;
-    width: 100px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
 }
 
 
-.javascript-img img {
-    width: 200px;
-    position: relative;
-    left: 40px;
-}
 
+.tech-images img {
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
 
 
 .tech-images {
     display: flex;
     justify-content: center;
-    position: relative;
-    right: 40px;
+    margin-bottom: 100px;
+
 }
 
+
+.tech-images img:hover {
+    animation: bounce 1.1s ease-in-out infinite;
+
+   
+}
+
+
+@keyframes bounce {
+    0%, 
+    20%,
+    60%, 
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    80% {
+        transform: translateY(-10px);
+    }
+}
+
+
+
+
+.portfolio {
+    padding-bottom: 30vh;
+
+}
+
+
+.row-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio img {
+    height: 293px;
+    width: 494px;
+    margin-bottom: 10px;
+}
+
+/* height: 470*/
+.project {
+    height: 580px;
+    width: 500px;
+    border: solid  #ffffff	3px;
+    margin-right: 35px;
+    transition: 1s;
+    margin-top: 40px;
+}
+
+
+.project:hover {
+    transform:scale(1.1);
+}
+
+.project-text {
+    color: white;
+    text-align: center;
+}
+
+
+.project-text h3 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 253, 253);
+}
+
+
+
+.project-details {
+    display: flex;
+    justify-content: center;
+}
+
+
+.project-text p {
+    font-size: 17px;
+    margin-top: 40px;
+    font-weight: bold;
+    width: 400px;
+}
+
+
+
+button {
+    outline: none;
+    background: transparent;
+    border: solid white 2px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 8px;
+    /*
+    color: #FCBA75;
+    */
+    color: #C36656;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: black;
+    font-size: 20px;
+    
+}
+
+
+a:hover {
+    color: white;
+    transition: 1s;
+}
+
+
+.contact {
+    padding-bottom: 30vh;
+    background-color: rgb(26, 18, 12);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+.contact-wrapper {
+    position: relative;
+    top: 50px;
+}
+
+
+.contact-head, .number-container, .email-container, .github-img {
+    color: #FCBA75;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+   
+
+
+
+/*
 
 
 .projects {
@@ -117,25 +228,14 @@ nav ul li {
     margin-bottom: 140px;
 }
 
-.project-head {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-}
 
 
-.project-head h2 {
-    color: #274754;
-    font-size: 40px;
-    
-}
 
 
 .projects img {
     height: 250px;
     width: 340px;
     margin-right: 23px;
-   
 }
 
 
@@ -153,12 +253,14 @@ nav ul li {
 }
 
 .boxes {
-    background-color: white ;
+    background-color: rgb(37, 29, 23);
     height: 180px;
     width: 340px;
+    
     box-shadow:  1px 5px 9px rgba(132, 136, 132, 0.75);
+    
     margin-bottom: 40px;
-
+    border: solid white 1px;
 
 }
 
@@ -231,53 +333,4 @@ nav ul li {
 
 
 
-/* Contact */
-
-.contact {
-    height: 55vh;
-    background-color:#264653;
-    color: white;
-    font-weight: bold;
-
-
-}
-
-.contact-head {
-    font-size: 40px;
-}
-
-
-.contact-head, .contact-info, .contact-email {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    
-}
-
-
-
-.contact-info, .contact-email {
-    font-size: 30px;
-}
-
-
-.more-info {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    left: 20px;
-}
-
-.more-info img {
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    margin-right: 2rem;
-}
-
-
-
-
-
-/*  set up*/
-/* site done */
+/* 

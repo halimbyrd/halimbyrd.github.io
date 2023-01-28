@@ -106,12 +106,14 @@ header {
     padding-bottom: 10vh;
 }
 
-
+/*     padding-bottom: 130vh;
+*/
 
 .project-section {
-    padding-bottom: 130vh;
+    padding-bottom: 30vh;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     
 }
 
@@ -130,6 +132,7 @@ header {
     height: 293px;
     width: 494px;
     margin-right: 35px;
+    margin-bottom: 385px;
 
 
 }
@@ -255,6 +258,35 @@ button {
 }
 
 
+/*   rgb(230, 222, 216);
+
+*/
+
+
+.contact {
+    padding-bottom: 30vh;
+    background-color: rgb(216, 215, 215);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+.contact-wrapper {
+    position: relative;
+    top: 50px;
+}
+
+
+.contact-head, .number-container, .email-container, .github-img {
+    color: rgb(173, 173, 173);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+   
 
 
 

@@ -49,11 +49,13 @@ margin:top 110px:
 
 }
 
+/*      color: #163F5E ;
+  */
+
 .name {
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
-    color: #163F5E ;
     font-weight: bold;
     font-size: 50px;
     color:  #01ADB7;;
@@ -62,11 +64,11 @@ margin:top 110px:
 
 
 
-
+/*     color: #3C4A69;
+   */
 .about-me {
     width: 560px;
     text-align: center;
-    color: #3C4A69;
     font-size: 20px;
     margin-bottom: 90px;
     color: black;
@@ -277,14 +279,15 @@ a {
 
 
 
-.project-details {
+.project-details-wrapper {
     display: flex;
     justify-content: center;
+
 }
 
 
-
-.project-details p {
+/*  put the p back  */
+.project-details-wrapper p {
     font-size: 21px;
     margin-top: 40px;
     font-weight: bold;
@@ -371,6 +374,7 @@ button {
 .hidden {
     display: none;
 }
+
 
 
 

@@ -5,252 +5,275 @@
 
 }
 
-
 body {
-    background-color: #12181a;
+    background-color: #EFEEEF;
 }
 
 
-h1, h2, h3 {
-    color: white;
-    
-
-}
-
-h1 {
-    font-size: 4rem;
+img {
+    max-width: 100%;
+    block-size: auto;
 }
 
 
+
+p, a {
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #33323d;
+}
 
 p {
-    font-family: 'Roboto', sans-serif;
-    color: #d1d5db;
-   
 }
 
 
 
-.about-section {
+h1, h2 {
+    font-family: 'Ibarra Real Nova', serif;
+    color: #33323d;
+}
+
+
+nav {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 10rem;
-    padding-bottom: 10rem;
+    justify-content: flex-end;
+    width: 90%;
+    margin-top: 3rem;
 
 }
 
 
 
-.name, .introduction {
-    display: flex;
-    justify-content: center;
-}
-
-
-.introduction {
-    padding-top: 1rem;
-    padding-bottom: 9rem;
-}
-
-
-.introduction p {
-    font-weight: bold;
-    width: 41%;
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-
-.tech-head {
-    font-size: 2.5rem;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 3rem;
-
-}
-
-
-.about-section img {
-    height: 4.6rem;
-    width: 4.6rem;
-}
-
-.tech-images {
-    display: flex;
-    justify-content: center;
-}
-
-
-.tech-images img {
-    padding-right: 1rem;
-    cursor: pointer;
-}
-
-
-.tech-images img:hover {
-    animation: bounce 1.1s ease-in-out infinite;
-
-   
-}
-
-
-@keyframes bounce {
-    0%, 
-    20%,
-    60%, 
-    100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-10px);
-    }
-    80% {
-        transform: translateY(-10px);
-    }
+li {
+    list-style: none;
 }
 
 
 
-
-.project-section {
-  
-  padding-bottom: 10rem;
-}
-
-
-.project-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-
-.project {
-    margin-right: 1.7rem;
-    transition: 1s;
-    margin-bottom: 3rem;
-
-}
-
-
-.project:hover {
-    transition: 1s;
-    transform:scale(1.1);
-}
-
-
-
-
-.img-container img {
-    height: 16rem;
-    width: 22rem;
-    border-radius: 0.4rem;
-    position: relative;
-    top: 0.5rem;
-}
-
-/*22rem width*/
-
-.project-info {
-    width:22rem;
-    height: 16rem;
-    background-color: #2a2e35;
-}
-
-
-
- .project-title, .code-live, .project-details {
-    display: flex;
-    justify-content: center;
-}
-
-
-.project-title {
-    margin-bottom: 1rem;
-}
-
-
-.code-live {
-    margin-bottom: 1rem;
-}
-
-
-
-.project-details {
-    margin-bottom: 1.7rem;
-}
-
-
-.code-live a  {
-    color: black;
-    margin-right: 0.8rem;
+li a {
     text-decoration: none;
-    background-color: white;
-    font-weight: bold;
-    border-radius: 0.2rem;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    width: 4rem;
-    text-align: center;
-    padding: 0.6rem;
-}
-
-a:hover {
     transition: 0.2s;
-    color: rgb(128, 84, 2) ;
+    margin-right: 2rem;
+}
+
+li a:hover {
+    color: #5fb4a2;
 }
 
 
-
-
-
-
-
-
-.project-title h3 {
-    font-size: 1.8rem;
-    padding-top: 1rem;
+.about-wrapper {
+    margin-top: 10rem;
+    margin-bottom: 17rem;
 }
 
-.project-details p {
-    text-align: center;
+.name, .about-info {
+    display: flex;
+    justify-content: center;
 }
 
 
-.btn-wrapper {
+.about-details img {
+    width: 25rem;
+}
+
+.underline {
+    border: solid 1px;
+    margin-bottom: 2rem;
+    
+}
+ 
+
+.about-wrapper h1 {
+    font-size: 3.6rem;
+}
+
+
+.about-wrapper h2 {
+    font-size: 2.6rem;
+    
+}
+
+
+.about-details {
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.about-title, .about-me-text, .project-btn-wrapper {
     display: flex;
     justify-content: center;
 }
 
 
 
-button {
-    border: none;
-    outline: none;
-    background: transparent;
-    padding: 5px;
-    font-weight: bold;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 20px;
-    margin-right: 10px;
+.about-title h2 {
+    font-size: 2.7rem;
+    
+}
+
+.about-me-text {
+    margin-top: 2rem;
 }
 
 
-.html-btn {
-    background-color: #FC490B;
+
+.about-me-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+
+
+
+.project-btn-wrapper {
+    margin-bottom: 4rem;
+}
+
+
+.contact-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.navagation-btn button {
+    background-color: white;
+    cursor: pointer;
+    border: black solid 1px;
+    transition: 0.5s;
+    margin-top: 10rem;
+    padding: 1.6rem;
+    width: 16rem;
+ }
+ 
+ 
+ 
+ .navagation-btn button:hover  {
+    transition: 0.5s;
+    background-color: #33323d;
     color: white;
+ 
  }
  
- .css-btn {
-     background-color: #2299F8;
-     color: white;
- }
- 
- 
- .javascript-btn {
-     background-color: #F0DA4E;
-     color: black;
+
+
+ footer {
+    margin-top: 10rem;
+    background-color: #33323d;
+    padding: 1.7rem;
+
+
  }
 
 
+ footer ul {
+    display: flex;
+    margin-left: 10rem;
+ }
+
+
+footer li a {
+    color: white;
+}
+
+
+
+/*
+
+
+
+
+.about-details {
+    padding-bottom: 20rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.head, .about-me-text, .line, .project-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.head {
+    margin-bottom: 2rem;
+}
+
+
+.line hr {
+    background: black;
+    height: 2.6px;
+
+}
+
+
+.line {
+    margin-bottom: 3rem;
+}
+
+
+.head {
+    font-size: 1.7rem;
+}
+
+
+.about-me-text p {
+    margin-bottom: 1.5rem;
+}
+
+
+.about-details hr {
+    width: 39rem;
+
+}
+
+
+.para {
+    margin-left: 5rem;
+}
+
+
+
+.about-details img {
+    height: 30rem;
+}
+
+
+
+
+
+.navagation-btn button {
+   background-color: white;
+   cursor: pointer;
+   border: black solid 1px;
+   transition: 0.5s;
+   margin-top: 10rem;
+   padding: 1.6rem;
+   width: 16rem;
+}
+
+
+
+.navagation-btn button:hover  {
+   transition: 0.5s;
+   background-color: #33323d;
+   color: white;
+
+}
+
+
+
+.line-two {
+  
+    
+}
+
+
+*/

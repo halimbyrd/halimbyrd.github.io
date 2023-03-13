@@ -2,13 +2,394 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+  
+
+  
+p, a {
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+
+h1, h2 {
+    font-family: 'Ibarra Real Nova', serif;
+    color: #33323d;
+}
+
+
+
+
+
+nav {
+    background-color: #33323d;
+    padding: 3.6rem;
+
+
+    display: none;
+}
+
+
+.mobile-nav-icon-wrapper {
+    position: absolute;
+    right: 0.3rem;
+    padding: 1.7rem;
+    font-size: 2rem;
+}
+
+
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
+
+
+.mobile-menu li {
+    list-style-type: none;
+    padding-bottom: 1rem;
+}
+
+
+.mobile-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.mobile-menu li a:hover {
+
+    color: #5fb4a2;
+    transition: 0.2s;
+
+    
+}
+
+
+#x-icon {
+    display: none;
+    color: white;
+}
+
+
+#hamburger-icon {
+    color: #33323d;
+}
+
+
+
+@media  (min-width: 590px) {
+    nav {
+        display: block  !important;
+        background-color: transparent;
+    }
+
+
+    .mobile-menu {
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 90%;
+    }
+
+
+    .mobile-menu li {
+        padding-right: 1rem;
+    }
+
+
+    .mobile-menu li a {
+        text-decoration: none;
+        color: #33323d;
+    }
+
+
+    .mobile-nav-icon-wrapper {
+        display: none;
+    }
+
+
+}
+
+
+
+
+/* THIS IS IT 
+
+  
+
+  nav {
+    padding: 2rem;
+  }
+
+
+.mobile-nav-icon-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    width: 90%;
+    font-size: 2rem;
+
+}
+
+
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.mobile-menu li {
+    list-style: none;
+    padding-bottom: 1rem;
+
+}
+
+.mobile-menu li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+
+
+@media (min-width:640px) {
+  
+   nav {
+      background-color: transparent;
+   }
+
+    .mobile-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .mobile-menu li a {
+        padding-right: 1rem;
+        color: black;
+    }
+
+    .mobile-nav-icon-wrapper {
+        display: none;
+    }
+    
+}
+
+/* THIS IS IT /////////////////////////
+
+
+
+
+
+
+
+
+/*      color: wheat; */
+ 
+
+ 
+/*
+
+header {
+    background-color: #33323d;
+
+}
+
+
+#x-icon{
+    display: none;
+}
+
+
+.mobile-nav-icon-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: #33323d
+
+}
+
+
+
+
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 1rem;
+    left: 1rem;
+
+}
+
+
+.mobile-menu li {
+    padding-bottom: 1rem;
+    list-style-type: none;
+}
+
+.mobile-menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+@media (min-width: 643px) {
+     
+}
+//////////////////////////
+
+
+
+
+
+
+
+/*
+
+
 
 body {
     background-color: #EFEEEF;
+
+
 }
 
+
+p, a {
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+
+
+header {
+  background-color: transparent;
+}
+
+
+.mobile-menu {
+    display: none;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+
+li a {
+    text-decoration: none;
+    transition: 0.2s;
+    margin-right: 2rem;
+
+}
+
+li a:hover {
+    color: #5fb4a2;
+}
+
+
+
+.mobile-nav-icon-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding: 2rem;
+    font-size: 2rem;
+    color: #33323d;
+}
+
+
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3rem;
+
+
+
+}
+
+
+nav ul li {
+    margin-bottom: 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+}
+
+
+.active {
+    display: block;
+}
+
+
+
+
+@media (min-width: 643px) {
+    header {
+        background-color: transparent;
+    }
+   
+    nav {
+        width: 90%;
+    }
+
+   .mobile-menu {
+    display: flex;
+   }
+
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 3rem 0;
+
+    }
+  
+
+    .mobile-nav-icon-wrapper {
+         display: none;
+        color: #33323d;
+
+    }
+
+
+   nav ul  li a {
+        color: #33323d;
+
+    }
+
+}
+
+
+*/
+
+
+
+
+
+
+
+
+/*
+//////////////////////////////////////
 
 img {
     max-width: 100%;
@@ -23,8 +404,7 @@ p, a {
     color: #33323d;
 }
 
-p {
-}
+
 
 
 
@@ -126,7 +506,9 @@ li a:hover {
 
 }
 
-
+.project-btn {
+    margin-right: 1rem;
+}
 
 .project-btn-wrapper {
     margin-bottom: 4rem;
@@ -178,102 +560,6 @@ footer li a {
     color: white;
 }
 
-
-
-/*
-
-
-
-
-.about-details {
-    padding-bottom: 20rem;
-    display: flex;
-    justify-content: center;
-}
-
-
-
-
-
-
-
-.head, .about-me-text, .line, .project-btn-wrapper {
-    display: flex;
-    justify-content: center;
-}
-
-.head {
-    margin-bottom: 2rem;
-}
-
-
-.line hr {
-    background: black;
-    height: 2.6px;
-
-}
-
-
-.line {
-    margin-bottom: 3rem;
-}
-
-
-.head {
-    font-size: 1.7rem;
-}
-
-
-.about-me-text p {
-    margin-bottom: 1.5rem;
-}
-
-
-.about-details hr {
-    width: 39rem;
-
-}
-
-
-.para {
-    margin-left: 5rem;
-}
-
-
-
-.about-details img {
-    height: 30rem;
-}
-
-
-
-
-
-.navagation-btn button {
-   background-color: white;
-   cursor: pointer;
-   border: black solid 1px;
-   transition: 0.5s;
-   margin-top: 10rem;
-   padding: 1.6rem;
-   width: 16rem;
-}
-
-
-
-.navagation-btn button:hover  {
-   transition: 0.5s;
-   background-color: #33323d;
-   color: white;
-
-}
-
-
-
-.line-two {
-  
-    
-}
 
 
 */

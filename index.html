@@ -1,158 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halim Byrd | Front End Web Developer</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet"  type="text/css" href="styles.css">  
-    <script src="/script.js" defer></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&family=Public+Sans:ital@1&display=swap" rel="stylesheet">
+    <title>Responsive Personal Portfolio Website Design | Codehal</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="/style.css">
 </head>
-</html>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#top" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#portfolio">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Halim</h1>
+            <h3>I am an aspiring Front End Developer</h3>
+            
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/halim-byrd-448387260/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        <!--  <a href="#" class="btn">Download CV</a> -->  
+        </div>
+
+        
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/images/computer-image.jpg"alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>I am an aspiring front end developer, and I have a serious
+                passion for programming. From the moment I produced "Hello World" in the     
+                console, I knew I was hooked into the world of programming. Learning         
+                programming has allowed me to challenge myself, and get out of my
+                comfort zone. Though I still have a long way to go, I
+                am eager to learn and grow, and do what ever it takes to get the job done.</p>
+        </div>
+    </section>
+
+    <!-- services section design
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dignissimos vitae magni aut commodi
+                    non laborum nisi alias iusto voluptatibus.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dignissimos vitae magni aut commodi
+                    non laborum nisi alias iusto voluptatibus.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dignissimos vitae magni aut commodi
+                    non laborum nisi alias iusto voluptatibus.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+ -->
 
 
-<header>
-    
-    <div class="mobile-nav-icon-wrapper">
-        <i class="fa-solid fa-bars " id="hamburger-icon"></i>
-        <i class="fa-solid fa-x" id="x-icon"></i>
-    </div>
-     <nav class="nav-bar"> 
-        <ul class="mobile-menu">
-            <li><a href="/index.html">HOME</a></li>
-            <li><a href="">PROJECTS</a></li>
-            <li><a href="">SKILLS</a></li>
-            <li><a href="">CONTACT</a></li>
-        </ul>   
-    </nav>
+
+    <!-- portfolio section design 
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ratione.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ratione.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ratione.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ratione.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ratione.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ratione.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+-->
 
 
-</header>
 
 
+    <!-- contact section design 
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
 
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
 
-
-<!---  
-<header>
-      <nav>
-         <div class="mobile-nav-icon-wrapper">
-            <i class="fa-solid fa-bars " id="hamburger-icon"></i>
-            <i class="fa-solid fa-x"></i>
-        </div>    
-        <ul class="mobile-menu hidden">
-            <li><a href="/index.html">HOME</a></li>
-            <li><a href="">PROJECTS</a></li>
-            <li><a href="">SKILLS</a></li>
-            <li><a href="">CONTACT</a></li>
-        </ul>        
-      </nav>
-  </header>
-  
-  THIS IS IT 
   -->
 
 
 
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#top"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
 
 
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-
-
-
-<!-- 
-
-
- <header>
-
-    
-        <nav>
-            <div class="mobile-nav-icon-wrapper">
-                <i class="fa-solid fa-bars " id="hamburger-icon"></i>
-                <i class="fa-solid fa-x" id="x-icon"></i>
-
-            </div>    
-            <ul class="mobile-menu">
-                <li><a href="/index.html">HOME</a></li>
-                <li><a href="">PROJECTS</a></li>
-                <li><a href="">SKILLS</a></li>
-                <li><a href="">CONTACT</a></li>
-           </ul>        
-      </nav>
-
- </header>
--->
-
-
- 
-
-
-
-    <!--  
-     <header>
-           <nav>
-               <li><a href="">HOME</a></li>
-               <li><a href="project-page/projects.html">PROJECTS</a></li>
-               <li><a href="">SKILLS</a></li>
-               <li><a href="">CONTACT</a></li>
-          </nav>
-     </header>
-      <section class="introduction">
-             <div class="about-wrapper">
-                  <div class="name">
-                      <h1>Hi, I'm Halim</h1>
-                  </div>
-                  <div class="about-info">
-                      <h2> I am an aspiring Front End Developer</h2>
-                  </div>
-             </div>
-             <div class="about-details">
-                  <div class="left-side">
-                         <div class="img-container">
-                              <img src="images/code-image-two.jpg" alt="">
-                         </div>
-                   </div>
-                     <div class="right-side">
-                          <div class="underline-wrapper">
-                              <div class="underline"></div>
-                          </div>
-                          <div class="about-title">
-                              <h2>About Me</h2>
-                          </div>
-                          <div class="about-me-text"> 
-                              <div class="paragraph-wrapper">
-                                   <p>I am an aspiring front end developer, and I have a serious </p>
-                                   <p>passion for programming. From the moment I produced "Hello World" in the</p>
-                                   <p>console, I knew I was hooked into the world of programming. Learning</p>
-                                   <p>programming has allowed me to challenge myself, and get out of my</p>
-                                   <p> comfort zone. Though I still have a long way to go, I</p>
-                                   <p>am eager to learn and grow, and do what ever it takes to get the job done.</p>
-                              </div> 
-                          </div>
-                          <div class=" project-btn-wrapper navagation-btn">
-                              <button class="project-btn">GO TO PROJECTS</button>
-                          </div>
-                     </div>                               
-             </div>
-      </section>
-      <div class="contact-btn-wrapper navagation-btn">
-           <button>CONTACT ME</button>
-      </div>
-      <footer>
-           <ul>
-               <li><a href="">HOME</a></li>
-               <li><a href="">PROJECTS</a></li>
-               <li><a href="">SKILLS</a></li>
-               <li><a href="">CONTACT</a></li>
-           </ul>
-      </footer>
-             
-          -->
-   
-      
+    <!-- custom js -->
+    <script src="/script.js"></script>
 </body>
-   
+
+</html>

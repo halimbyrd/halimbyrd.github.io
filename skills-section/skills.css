@@ -141,6 +141,7 @@ p {
 img {
     width: 14%;
     height: auto;
+    cursor: pointer;
 }
 
 

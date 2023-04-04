@@ -112,6 +112,15 @@ section {
     }
 }
 
+
+.home-content h1 {
+    color: wheat;
+}
+
+
+
+
+
 .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
@@ -557,4 +566,6 @@ span {
         text-align: center;
         margin-top: 2rem;
     }
+
+
 }

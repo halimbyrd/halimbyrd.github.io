@@ -117,13 +117,15 @@ body {
     
 }
 
-.name-wrapper, .email-wrapper, .message-wrapper, .submit-wrapper {
+.name-wrapper, .email-wrapper, .message-wrapper, .submit-wrapper, .email-container {
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
 }
 
-
+.email-container p {
+    font-size: 2rem;
+}
 
 
 input, textarea, button {

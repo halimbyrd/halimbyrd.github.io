@@ -26,6 +26,8 @@ body {
 
 }
 
+
+
 /*
 section {
     min-height: 100vh;
@@ -33,6 +35,14 @@ section {
 }
 
 */
+
+
+
+.navbar {
+    position: relative;
+    top: 6px;
+}
+
 
 .header {
     position: relative;

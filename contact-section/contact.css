@@ -28,6 +28,14 @@ body {
 
 
 
+.navbar {
+    position: relative;
+    right: 13.5px;
+    
+}
+
+
+
 .header {
     position: relative;
     top: 0;

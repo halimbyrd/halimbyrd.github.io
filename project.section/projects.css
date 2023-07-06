@@ -229,15 +229,15 @@ img {
         margin-right: 4rem;
     }
 
-
-
-}
+  
 
 
 @media (min-width: 1000px) {
     .project-title h2 {
         font-size: 5rem ;
     }
+
+    
 }
 
 
@@ -280,3 +280,7 @@ img {
 
 
 
+
+
+
+}
